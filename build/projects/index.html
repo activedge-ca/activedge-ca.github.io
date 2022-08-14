@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <title>Bk8c</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/static/ico/favicon.png?">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/static/js/bootstrap.min.js" type="text/javascript"></script>
+    <style type="text/css">
+        h1, h2, h3 {
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+
+        body.home {
+            /*background: url(/static/img/bg.png) repeat-x;*/
+        }
+        div.welcome-box {
+            background: url(/static/img/vancouver.jpeg) no-repeat;
+            background-size: cover;
+            height: 30em;
+        }
+        p.feat-all {
+            padding: 1.25em;
+            margin-bottom: -1.25em;
+        }
+        .news-page-post img,
+        article .post-body img {
+            max-width: 500px;
+        }
+        .project-excerpt {
+            height: 150px;
+        }
+        a {
+            text-align: center;
+            color: #50758E;
+        }
+        .term {
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        .welcome-box h1 {
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 1em;
+        }
+        .welcome-box p.lead {
+            color: #ffffff;
+            padding: 1em;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .sponsor {
+            margin: 1em auto;
+        }
+        .logo {
+            max-height: 80px;
+            max-width: 300px;
+            margin-top: .5em;
+        }
+        .people-pic-wrapper {
+            width: 130px;
+            height: 130px;
+            text-align: center;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .people-pic {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .faculty {
+          border: 2px solid black;
+        }
+
+        .grad {
+          border: 2px solid #2e6da4;
+        }
+
+        .staff {
+          border: 2px solid #00770b;
+        }
+
+        .undergrad {
+          border: 2px solid #ddd;
+        }
+
+        .home-post {
+        }
+        .person {
+            margin-bottom: 1em;
+        }
+
+        #sponsors img {
+            max-width: 200%;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        #navbar {
+            background-color: #f5f5f5;
+        }
+
+        #navbar div {
+            height: 60px;
+        }
+
+        #navbar a {
+            height: 60px;
+            padding-top: 0.4em;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+
+    <body class="">
+        <div class="container">
+            
+
+            <div class="page-content">
+                <div class="wrapper">
+                    <div class="row">
+    <h1 >Projects</h1>
+     
+    
+        
+        <div class="netsys-project">
+            <h2 id="poc">
+                
+                    A Public Option for the Core
+                
+            </h2>
+            <p>Contact author: Scott Shenker</p>
+            <p style="font-size: 95%">This project is focused not on the Internet architecture -- as defined by layering,  the narrow waist of IP, and other core design principles -- but on the Internet infrastructure,  as embodied in the technologies and organizations that provide Internet service. We consider  both the challenges and the opportunities that make this an auspicious time to revisit how we might  best structure the Internet’s infrastructure. Currently, the tasks of transit-between-domains and  last-mile-delivery are jointly handled by a set of ISPs who interconnect through BGP. Instead, we propose  cleanly separating these two tasks. For transit, we propose the creation of a ``public option’' for the  Internet’s core backbone. This public option core, which complements rather than replaces the backbones  used by large-scale ISPs, would (i) run an open market for backbone bandwidth so it could leverage  links offered by third-parties, and (ii) structure its terms-of-service to enforce network neutrality  so as to encourage competition and reduce the advantage of large incumbents.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="autotune">
+                
+                    Autotune
+                
+            </h2>
+            <p>Michael Alan Chang, Will Wang, Aurojit Panda, Scott Shenker</p>
+            <p style="font-size: 95%">Most large web-scale applications are now built by composing collections (up to 100s or 1000s) of microservices.  Operators need to decide how many resources are allocated to each microservice, and these allocations can have a  large impact on application performance. Manually determining allocations that are both cost-efficient and  meet performance requirements is challenging, even for experienced operators. In this paper we present  Autotune, an end-to-end tool that automatically minimizes resource utilization while maintaining good application performance.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="blockaid">
+                
+                    Blockaid
+                
+            </h2>
+            <p>Wen Zhang, Eric Sheng, Michael Alan Chang, Aurojit Panda, Mooly Sagiv, Scott Shenker</p>
+            <p style="font-size: 95%">Modern web applications process large amounts of sensitive user data, access to which is governed by data access policies. Blockaid is a system that enforces these data access policies for web applications via a proxy that intercepts the application’s SQL queries and their results. Blockaid leverages SMT solvers to verify policy compliance and, to achieve adequate performance, generalizes and caches the results of previous compliance decisions. We demonstrate that Blockaid supports web applications written using existing web frameworks while adding only modest overheads.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="cessna">
+                
+                    CESSNA
+                
+            </h2>
+            <p>Aisha Mushtaq, Yotam Harchol, Vivian Fang, Murphy McCauley, Aurojit Panda, Scott Shenker</p>
+            <p style="font-size: 95%">The introduction of computational resources at the network edge allows application designers  to offload computation from clients and/or servers, thereby reducing response latency and  backbone bandwidth. More fundamentally, edge-computing moves applications from a client-server  model to a client-edge-server model. While this is an attractive paradigm for many use cases,  it raises the question of how to design client-edge-server systems so they can tolerate edge  failures and client mobility. This is particularly challenging when edge processing is strongly  stateful. In this work we propose a design for meeting this challenge called the Client-Edge-Server  for Stateful Network Applications (CESSNA).
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://dl.acm.org/doi/10.1145/3229556.3229558" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    Paper
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="cfm">
+                
+                    <a href="https://github.com/clusterfarmem">CFM</a>
+                
+            </h2>
+            <p>Emmanuel Amaro, Christopher Branner-Augmon, Zhihong Luo, Amy Ousterhout, Marcos K. Aguilera, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker</p>
+            <p style="font-size: 95%">As memory requirements grow, and advances in memory technology slow, the availability of sufficient  main memory is increasingly the bottleneck in large compute clusters. One solution to this is memory  disaggregation, where jobs can remotely access memory on other servers, or far memory. This project  presents a faster swapping mechanism and a far memory-aware cluster scheduler that make it possible  to support far memory at rack scale. While far memory is not a panacea, for memory-intensive workloads,  CFM can provide performance improvements on the order of 10% or more even without changing the total  amount of memory available.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://dl.acm.org/doi/abs/10.1145/3342195.3387522" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    Paper
+                </a>
+            
+                <a class="btn btn-primary" href="https://github.com/clusterfarmem" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="mutcell">
+                
+                    CellBricks
+                
+            </h2>
+            <p>Zhihong Luo, Silvery Fu, Mark Theis, Shaddi Hasan, Sylvia Ratnasamy, Scott Shenker</p>
+            <p style="font-size: 95%">Markets in which competition thrives are good for both consumers and innovation but,  unfortunately, competition is not thriving in the increasingly important cellular market. We propose CellBricks, a novel cellular architecture that lowers the barrier to entry for new operators by enabling users to consume access on-demand from any available cellular  operator — small or large, trusted or untrusted. CellBricks achieves this by moving support  for mobility and user management (authentication and billing) out of the network and into end hosts.  These changes, we believe, bring valuable benefits beyond enabling competition: they lead to a cellular  infrastructure that is simpler and more efficient. We design, build, and evaluate CellBricks,  showing that its benefits come at little-to-no cost in performance compared to what's achieved  by current cellular infrastructure.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://cellbricks.github.io/" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    Website
+                </a>
+            
+                <a class="btn btn-primary" href="https://github.com/cellbricks" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="content-revocation">
+                
+                    Content Revocation
+                
+            </h2>
+            <p>Contact author: Narek Galstyan</p>
+            <p style="font-size: 95%">Common wisdom holds that once personal content such as photographs have been shared on the Internet, they will stay there forever. In this work we explore how to allow users to reclaim some degree of their privacy by “revoking” previously shared content, hindering any subsequent viewing or sharing by others. We aim to provide a mechanism through which end-user browsers and large content aggregators can identify revoked content with minimal performance overheads and can avoid rendering/storing/distributing it. Our goal is not to build a system that can withstand determined efforts to subvert it, but rather to give well-intentioned users the ability to respect the privacy wishes of others.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="depsched">
+                
+                    DepSched
+                
+            </h2>
+            <p>Silvery Fu, Radhika Mittal, Lei Zhang, Sylvia Ratnasamy</p>
+            <p style="font-size: 95%">Container is becoming the canonical way of deploying compute tasks at the edge. Unfortunately, container startup latency and overhead remain high,  limiting responsiveness and of edge deployment. This latency comes mostly from fetching container dependencies including system libraries, tools,  configuration files, and data files. To address this, we propose that schedulers in container orchestrators take into account a task's dependencies.  Hence, in dependency scheduling, the scheduler tries to place a task at a node that has the maximum number of the task's dependencies  stored locally. We implement dependency scheduling within Kubernetes and evaluate it through extensive experiments and measurement-driven  simulations. We show that dependency scheduling improves task startup latency by 1.4-2.3x relative to current dependency-agnostic  scheduling for typical scenarios.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://www.usenix.org/system/files/hotedge20_paper_fu.pdf" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    Paper
+                </a>
+            
+                <a class="btn btn-primary" href="https://github.com/kubernetes/kubernetes/pull/68081" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="data-sharing">
+                
+                    Economics of Data Sharing
+                
+            </h2>
+            <p>Contact author: Scott Shenker</p>
+            <p style="font-size: 95%">There are many learning tasks — detecting bank fraud, predicting treatment effectiveness  -- that are done by separate entities, but where sharing the data would produce better  results. However, there are both privacy and incentive problems with sharing data. We  propose the use of learning brokers that receive data from various entities and perform  two valuable functions. First, they run the training algorithms over the data, and only  give the inference engines to others, not the raw data. Second, they share the data in  such a way that all entities have an incentive to share everything with the broker. This  work is in the very early stages.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="edgy">
+                
+                    Edgy
+                
+            </h2>
+            <p>John Westhoff, Aisha Mushtaq, Amir Shahatit, Yotam Harchol, Aurojit Panda, Scott Shenker</p>
+            <p style="font-size: 95%">In the last few years there has been increased interest in deploying application logic at the network edge.   However, in order to effectively use edge resources, applications must replicate state at edges. In current  applications the policy for when and where state should be replicated is embedded in the application,  however this policy depends not just on application logic but also on workloads and resource availability.  Workload and resource availability can vary significantly over an application's lifetime, and this can result  in poor performance when adopting edge computing. In this work we propose Edgy, a framework that decouples  replication logic from application logic, thus enabling applications to better respond to workload and  infrastructure changes.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="workstealing">
+                
+                    Efficient Work Stealing
+                
+            </h2>
+            <p>Contact author: Sarah McClure, Amy Ousterhout</p>
+            <p style="font-size: 95%">Datacenter servers must balance load across many (sometimes dozens) of cores.  Existing techniques such as work stealing perform well for long tasks, but can be inefficient for short tasks  that take only a couple of microseconds. At these timescales, cores may spend a significant fraction of their  time just looking for work, rather than actually doing useful work; this wastes CPU resources that could be  used by other applications on the same server. We are exploring techniques to perform load balancing more  efficiently, so that requests are handled faster and cores waste fewer cycles looking for work. 
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="kappa">
+                
+                    <a href="https://kappa.cs.berkeley.edu/">Kappa</a>
+                
+            </h2>
+            <p>Wen Zhang, Vivian Fang, Aurojit Panda, Scott Shenker</p>
+            <p style="font-size: 95%">Serverless computing (e.g., AWS Lambda) was initially designed for event-driven applications,  where each event handler is guaranteed to complete within a limited time duration. Kappa aims  to enable general purpose, parallel computation on serverless platforms. To do this, Kappa  provides a continuation-based checkpointing mechanism that allows long-running computations on  time-bounded lambda functions; and, a message-passing concurrency API for easily expressing  parallelism and exploiting the elasticity of serverless platforms.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://github.com/NetSys/kappa" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="loca">
+                
+                    LOCA - A Location Oblivious Cellular Architecture
+                
+            </h2>
+            <p>Zhihong Luo, Silvery Fu, Natacha Crooks, Shaddi Hasan, Sylvia Ratnasamy, Scott Shenker</p>
+            <p style="font-size: 95%">Cellular operators today know both the identity and location of their mobile subscribers and hence can easily profile users based on this information. Given this status quo, we aim to design a cellular architecture that protects the location privacy of users from their access providers. The fundamental challenge in this is balancing privacy with an operator’s need to provide services based on a user’s identity (e.g., post-pay, QoS and service classes, lawful intercept, forensics). We present LOCA, a novel cellular design that, for the first time, provides location privacy to users without compromising on identity-based services. LOCA is applicable to emerging MVNO-based cellular architectures in which a virtual operator acts as a broker between users and infrastructure operators. Using a combination of formal analysis, simulation, prototype implementation, and wide-area experiments, we show that LOCA provides provable privacy guarantees and scales to realistic deployment figures.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://github.com/cellbricks" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="os-redesign">
+                
+                    OS for the Modern Age
+                
+            </h2>
+            <p>Contact author: Murphy McCauley</p>
+            <p style="font-size: 95%">This NetSys project attempts to rethink foundational aspects of operating system design for  servers in the modern age, confronting issues such as changing performance bottlenecks (e.g., due  to vast performance changes in underlying technologies like networks and storage), the central  importance of isolation (in the sense of performance, data, and metadata), and shifting workloads  (such as extremely short and varied edge workloads).
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="pancake">
+                
+                    Pancake
+                
+            </h2>
+            <p>Lloyd Brown</p>
+            <p style="font-size: 95%">Pancake is the first system to protect key-value stores from access pattern leakage attacks with small constant factor bandwidth overhead. Pancake uses a new approach, that we call frequency smoothing, to transform plaintext accesses into uniformly distributed encrypted accesses to an encrypted data store. We show that frequency smoothing prevents access pattern leakage attacks by passive persistent adversaries in a new formal security model. Pancake is integrated into three key-value stores used in production clusters. Pancake achieves 229× better throughput than non-recursive Path ORAM — within 3–6× of insecure baselines for these key-value stores.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    Paper
+                </a>
+            
+                <a class="btn btn-primary" href="https://github.com/pancake-security/pancake" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="persimmon">
+                
+                    Persimmon
+                
+            </h2>
+            <p>Wen Zhang, Scott Shenker, Irene Zhang</p>
+            <p style="font-size: 95%">Distributed in-memory storage systems are crucial for meeting the low latency requirements of modern datacenter services. However, they lose all state on failure, so recovery is expensive and data loss is always a risk.  The Persimmon system leverages persistent memory (PM) to convert existing in-memory storage systems into persistent, crash-consistent versions with low overhead and minimal code changes. Persimmon offers a simple Persistent State Machine abstraction for PM and implements persistence through operation logging on the critical path and a novel crash-consistent shadow execution technique for log digestion in the background.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://www.usenix.org/conference/osdi20/presentation/zhang-wen" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    Paper
+                </a>
+            
+                <a class="btn btn-primary" href="https://github.com/persimmon-project/persimmon" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="perfpredict">
+                
+                    Predicting System Performance
+                
+            </h2>
+            <p>Silvery Fu, Saurabh Gupta, Radhika Mittal, Sylvia Ratnasamy</p>
+            <p style="font-size: 95%">The ability to predict system performance is key to enabling better system optimization and planning.  Given recent advances in Machine learning (ML), one might  ask whether ML is a natural fit for this task. We study whether and how ML  can be used to predict performance. Our findings reveal that the performance variability stemming from optimization or randomization techniques in many applications makes performance  prediction inherently difficult, i.e. in such cases, no ML technique can predict performance  with high enough accuracy. We show how eliminating the discovered sources of variability  greatly improves prediction accuracy. Since it is difficult to eliminate all possible sources of  system performance variability, we further discuss how ML models can be extended to cope with them by learning a distribution as opposed to point estimates.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://www.usenix.org/system/files/nsdi21-fu.pdf" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    Paper
+                </a>
+            
+                <a class="btn btn-primary" href="https://github.com/perfd/perfd" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="rmc">
+                
+                    Programmable RDMA
+                
+            </h2>
+            <p>Contact author: Emmanuel Amaro</p>
+            <p style="font-size: 95%">We propose extensions to RDMA called Remote Memory Calls (RMCs) that allows applications to  install a customized set of 1-sided RDMA operations. We are exploring how can RMCs be implemented  on the forthcoming generation of SmartNICs, and we will compare its performance to pure 1-sided and 2-sided  RDMA operations.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="rcs">
+                
+                    RCS
+                
+            </h2>
+            <p>Lloyd Brown, Arvind Krishnamurth (UW), Ganesh Ananthanarayanan (MSR), Ethan Katz Basset (Columbia), Sylvia Ratnasamy, Scott Shenker</p>
+            <p style="font-size: 95%">The conventional wisdom requires that all congestion control algorithms deployed on the public Internet be TCP-friendly.  If universally obeyed, this requirement would greatly constrain the future of such congestion control algorithms.  If partially ignored, as is increasingly likely, then there could be significant inequities in the bandwidth  received by different flows. To avoid this dilemma, we propose an alternative to the TCP-friendly paradigm  that can accommodate innovation, is consistent with the Internet’s current economic model, and is feasible  to deploy given current usage trends.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="invisible-nets">
+                
+                    Rethinking Tenant Networking Abstractions
+                
+            </h2>
+            <p>Contact author: Sarah McClure</p>
+            <p style="font-size: 95%">Cloud tenant networking abstractions are largely low-level, virtual versions of the building blocks used in physical data centers. Constructing and managing these networks can be an unnecessarily complex burden on the tenant, especially as multi-cloud deployments are increasingly common. We propose that the goal for a new design should be to free cloud tenants entirely from having to build and operate virtual networks. Building on this philosophy, we propose new declarative and endpoint-centric cloud API which replaces the tenant networking layer of cloud deployments altogether, ensuring that cloud customers do not have to have the skillset of a seasoned network operator.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="savanna">
+                
+                    Savanna
+                
+            </h2>
+            <p>Lloyd Brown, Peter Gao, Ed Oakes, Wen Zhang, Aurojit Panda, Sylvia Ratnasamy, Scott Shenker</p>
+            <p style="font-size: 95%">Serverless computing is a relatively recent cloud computing paradigm that allows customers  to write lightweight, short-lived functions that are executed on resources provisioned and managed by  cloud providers. This architecture was originally designed to simplify stateless, event-driven applications  such as those designed to handle web requests, compress images, or generate thumbnails. However,  this paradigm has been increasingly adopted in other domains including data analytics, machine learning,  and sensor data processing. These domains, and other potential applications, could benefit from better  fault-tolerance, consistent concurrent file access, and improved I/O performance than are provided by  current serverless offerings. In this paper we propose Savanna, a system that implements these features  for serverless applications. Savanna requires applications to use a file API, but is otherwise transparent  to serverless applications.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="prefetch">
+                
+                    Smarter Prefetching
+                
+            </h2>
+            <p>Contact author: Christopher Branner-Augmon</p>
+            <p style="font-size: 95%">Many common algorithms are data oblivious, meaning that their memory access patterns are independent of their input  data (e.g., common matrix operations). Our goal in this project is to exploit the predictability of memory access  patterns in data oblivious algorithms in order to reduce their memory footprint, while limiting their performance  degradation. We do this by utilizing a smart memory prefetcher, which is able to use information garnered from one  execution to accurately prefetch on subsequent executions of an application. For data-oblivious applications, our  approach will allow us to achieve much better prefetching accuracy when compared to existing approaches.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="net-neutral">
+                
+                    Theory of Network Neutrality
+                
+            </h2>
+            <p>Contact author: Scott Shenker</p>
+            <p style="font-size: 95%">There is a huge literature on network neutrality, which typically starts with our current economic arrangements  on the Internet and asks about the wisdom of certain limited measures (such as termination fees or prioritizing service).  This projects instead looks at the set of economic actors and asks which economic arrangements would lead to the  socially optimal outcome. This work is in the very early stages.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="timecrypt">
+                
+                    TimeCrypt
+                
+            </h2>
+            <p>Lukas Burkhalter, Anwar Hithnawi, Alexander Viand, Hossein Shafagh, Sylvia Ratnasamy</p>
+            <p style="font-size: 95%">A growing number of devices and services collect detailed time series data that is stored in the cloud.  Protecting the confidentiality of this vast and continuously generated data is an acute need for many applications  in this space. At the same time, we must preserve the utility of this data by enabling authorized services to  securely and selectively access and run analytics. This paper presents TimeCrypt, a system that provides scalable  and real-time analytics over large volumes of encrypted time series data. TimeCrypt allows users to define expressive  data access and privacy policies and enforces it cryptographically via encryption. In TimeCrypt, data is encrypted  end-to-end, and authorized parties can only decrypt and verify queries within their authorized access scope. Our evaluation  of TimeCrypt shows that its memory overhead and performance are competitive and close to operating on data in the clear.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://www.usenix.org/system/files/nsdi20-paper-burkhalter.pdf" role="button">
+                    
+                    <span class="glyphicon glyphicon-file"></span>
+                    
+                    NSDI Paper
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="tunnels">
+                
+                    Tunnels as an Abstraction
+                
+            </h2>
+            <p>Contact author: Scott Shenker</p>
+            <p style="font-size: 95%">Network APIs such as UNIX sockets, DPDK, and Netmap, assume that networks provide  only end-to-end connectivity. However, networks increasingly include smartNICs and  programmable switches that can implement both network and application functions.  Several recent works have shown the benefit of offloading application functionality  to the network, but using these approaches requires changing not just the applications,  but also network and system configuration. In this project we propose a network API that  rovides a uniform abstraction for offloads, aiming to simplify their use.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="vertex">
+                
+                    Vertex
+                
+            </h2>
+            <p>Lloyd Brown, Scott Shenker, Aurojit Panda, Amy Outerhout, Brian Kim, Michael Perry</p>
+            <p style="font-size: 95%">The goal of edge computing is to make nearby computing resources available to a rich set of applications. However, current offerings provide incomplete interfaces that limit applications, and disparate interfaces that prevent applications from using edges from other providers. To fix this we propose Vertex, a standard edge computing interface to enable provider-agnostic edge computing with a fuller set of abstractions.
+</p>
+            <p>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="zed">
+                
+                    Zed - Leveraging Data Types to Process Heterogeneous and Evolving Data
+                
+            </h2>
+            <p>Contact author: Amy Ousterhout, Silvery Fu</p>
+            <p style="font-size: 95%">Processing heterogeneous and evolving data is challenging with today’s data frameworks. In the Zed project, we re-architect data processing from the ground up to handle data with heterogeneous and evolving schemas by design. We argue that the key to doing so is to make data types first-class members of our data-processing systems, particularly of our data models and query languages.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://github.com/aousterh/data_model" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+            </p>
+        </div>
+        
+    
+        
+        <div class="netsys-project">
+            <h2 id="dspace">
+                
+                    dSpace
+                
+            </h2>
+            <p>Silvery Fu, Sylvia Ratnasamy</p>
+            <p style="font-size: 95%">dSpace is an open and modular programming framework that aims to simplify and accelerate the development of smart space applications. To achieve this, dSpace provides two key building blocks – digivices that implement device control and actuation and digilakes that process IoT data to generate events and insights — together with novel abstractions for composing these building blocks into higher-level abstractions. We apply dSpace to home automation systems and show how developers can easily and flexibly compose these basic abstractions to support a wide range of home automation scenarios.
+</p>
+            <p>
+            
+                <a class="btn btn-primary" href="https://github.com/digi-project/dspace" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Source Code
+                </a>
+            
+                <a class="btn btn-primary" href="https://github.com/NetSys/dspace-tutorial" role="button">
+                    
+                    <span class="glyphicon glyphicon-star"></span>
+                    
+                    Tutorial
+                </a>
+            
+            </p>
+        </div>
+        
+    
+</div>
+
+                </div>
+            </div>
+
+            <footer class="row">
+<hr>
+<p>
+    &copy; 2022 Activedge. Contact: silvery@activedge.ca
+</p>
+
+</footer>
+
+        </div>
+    </body>
+
+</html>
